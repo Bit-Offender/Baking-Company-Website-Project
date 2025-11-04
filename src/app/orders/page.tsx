@@ -22,7 +22,7 @@ export default function Orders() {
     return (
         <>
         <div className="grid grid-cols-3 gap-10 mx-10 mt-10 mb-10">
-            <Card className="shadow-2xl">
+            <Card className="shadow-2xl hover:scale-105 transition-all duration-700">
                 <CardHeader>
                     <CardTitle>Coffee Cake</CardTitle>
                     <CardDescription>100g</CardDescription>
@@ -46,7 +46,7 @@ export default function Orders() {
                         </div>
                 </CardFooter>
             </Card>
-            <Card className="shadow-2xl">
+            <Card className="shadow-2xl hover:scale-105 transition-all duration-700">
                 <CardHeader>
                     <CardTitle>Chocolate Cake</CardTitle>
                     <CardDescription>100g</CardDescription>
@@ -72,7 +72,7 @@ export default function Orders() {
                         </div>
                 </CardFooter>
             </Card>
-            <Card className="shadow-2xl">
+            <Card className="shadow-2xl hover:scale-105 transition-all duration-700">
                 <CardHeader>
                     <CardTitle>Butterscotch Cake</CardTitle>
                     <CardDescription>100g</CardDescription>
